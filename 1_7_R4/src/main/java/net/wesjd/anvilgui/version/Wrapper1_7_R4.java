@@ -126,6 +126,12 @@ public class Wrapper1_7_R4 implements VersionWrapper {
         }
 
         @Override
+        public void e() {
+            super.e();
+            this.a = 0;
+        }
+
+        @Override
         public boolean a(final EntityHuman human) {
             return true;
         }
